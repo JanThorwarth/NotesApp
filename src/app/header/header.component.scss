@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(8, 32, 41);
     height: 100px;
     font-family: 'Roboto';
     display: flex;
@@ -12,13 +12,28 @@ header {
 .name {
     font-size: 32px;
     padding: 20px;
-   >p {
-    font-weight: 600;
-    >b {
-        color: red;
+
+    >p {
+        font-weight: 600;
+
+        >b {
+            color: red;
+        }
     }
-   }
 }
+
 .add-note {
-    
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-right: 20px;
+    padding: 8px 20px;
+    border: 2px solid red;
+    border-radius: 20px;
+    font-size: 16px;
+    >img {
+        filter: invert(35%) sepia(100%) saturate(500%) hue-rotate(-50deg);
+    }
+
+
 }
