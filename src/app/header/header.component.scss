@@ -32,7 +32,7 @@ header {
     border-radius: 20px;
     font-size: 16px;
     >img {
-        filter: invert(35%) sepia(100%) saturate(500%) hue-rotate(-50deg);
+        filter: brightness(0) saturate(100%) invert(32%) sepia(85%) saturate(7456%) hue-rotate(355deg) brightness(105%) contrast(131%);
     }
 
 

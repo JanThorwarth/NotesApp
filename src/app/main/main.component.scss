@@ -1,0 +1,67 @@
+img {
+    filter: brightness(0) saturate(100%) invert(32%) sepia(85%) saturate(7456%) hue-rotate(355deg) brightness(105%) contrast(131%);
+}
+
+.main {
+    background-color: rgb(5,23,30);
+    height: 100vh;
+    color: white;
+    font-family: 'Roboto';
+}
+.left {
+    display: flex;
+}
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.all {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 16px;
+    gap: 8px;
+    margin-left: 8px;
+    margin-top: 16px;
+    width: fit-content;
+    background-color: rgb(8, 32, 41);
+    >img  {
+        width: 20px;
+        height: 20px;
+    }
+}
+.fav {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 16px;
+    gap: 8px;
+    margin-left: 8px;
+    margin-top: 16px;
+    width: fit-content;
+    background-color: rgb(8, 32, 41);
+    >img  {
+        width: 20px;
+        height: 20px;
+    }
+
+}
+.trash {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 16px;
+    gap: 8px;
+    margin-right: 8px;
+    margin-top: 16px;
+    width: fit-content;
+    background-color: rgb(8, 32, 41);
+    >img  {
+        width: 20px;
+        height: 20px;
+    }
+
+
+}
